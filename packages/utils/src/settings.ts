@@ -75,7 +75,7 @@ export class Settings {
     : 161061273600; // 150GiB
   public static readonly MAX_EPISODE_SIZE = process.env.MAX_EPISODE_SIZE
     ? parseInt(process.env.MAX_EPISODE_SIZE)
-    : 16106127360; // 15GiB
+    : 161061273600; // 15GiB
   public static readonly MAX_TIMEOUT = process.env.MAX_TIMEOUT
     ? parseInt(process.env.MAX_TIMEOUT)
     : 50000;
